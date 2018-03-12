@@ -1,0 +1,42 @@
+focus_tree = {
+	id = AST
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = AST
+		}
+	}
+	focus = {
+		id = AST_coal_miner_strike
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 40
+		y = 0
+		completion_reward = {
+			add_stability = -0.08
+		}
+	}
+	focus = {
+		id = AST_crack_down_on_coal
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 40
+		y = 1
+		completion_reward = {
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = AST_1949_election
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 40
+		y = 1
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
