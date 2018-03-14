@@ -161,8 +161,8 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1960.12.31 }
-		x = 44
-		y = 7
+		x = 43
+		y = 8
 		completion_reward = {
 			#
 		}
@@ -176,8 +176,22 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1960.12.31 }
-		x = 48
+		x = 46
 		y = 6
+		completion_reward = {
+			#
+		}
+	}
+	focus = {
+		id = AST_upgrade_defense_north
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_doctrine_effort
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 46
+		y = 7
 		completion_reward = {
 			#
 		}
