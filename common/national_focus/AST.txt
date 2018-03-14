@@ -190,8 +190,8 @@ focus_tree = {
 			focus = AST_menzies_vic
 		}
 		cost = 10.00
-		x = 42
-		y = 6
+		x = 37
+		y = 4
 		completion_reward = {
 			add_political_power = 100
 		}
@@ -203,8 +203,8 @@ focus_tree = {
 			focus = AST_domestic_reforms
 		}
 		cost = 10.00
-		x = 42
-		y = 6
+		x = 38
+		y = 5
 		completion_reward = {
 			add_political_power = -25
 			add_popularity = {
@@ -220,7 +220,7 @@ focus_tree = {
 			focus = AST_ban_communist
 		}
 		cost = 10.00
-		x = 42
+		x = 38
 		y = 6
 		completion_reward = {
 			consumer_goods_factor = -0.1
