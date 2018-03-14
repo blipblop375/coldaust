@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		domestic_reform = { 
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+
+			picture = USA_organized_crime_problem
+		}
+		forward_defense = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		self_defense_military = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.01
+			}
+		}		
+	}
+}

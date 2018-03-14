@@ -15,12 +15,15 @@ focus_tree = {
 		x = 40
 		y = 0
 		completion_reward = {
-			add_stability = -0.08
+			add_stability = -0.10
 		}
 	}
 	focus = {
 		id = AST_crack_down_on_coal
 		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_coal_miner_strike
+		}
 		cost = 10.00
 		allow_branch = { date < 1960.12.31 }
 		x = 40
@@ -32,11 +35,92 @@ focus_tree = {
 	focus = {
 		id = AST_1949_election
 		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_crack_down_on_coal
+		}
 		cost = 10.00
 		allow_branch = { date < 1960.12.31 }
 		x = 40
-		y = 1
+		y = 2
 		completion_reward = {
 			add_political_power = 100
 		}
 	}
+	focus = {
+		id = AST_menzies_vic
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_1949_election
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 40
+		y = 3
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = AST_lessons_ww2
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_menzies_vic
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 43
+		y = 4
+		completion_reward = {
+			army_experience = 25
+			air_experience = 25
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AST_doctrine_effort
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_menzies_vic
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 43
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+		}
+	}
+	focus = {
+		id = AST_forward_defense
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_doctrine_effort
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 44
+		y = 6
+		completion_reward = {
+			add_ideas = forward_defense
+		}
+	}
+	focus = {
+		id = AST_self_defense
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_doctrine_effort
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 42
+		y = 6
+		completion_reward = {
+			add_ideas = self_defense_military
+		}
+	}
+}
