@@ -125,6 +125,65 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = AST_downsize_mil
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_self_defense
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 42
+		y = 7
+		completion_reward = {
+			#
+		}
+	}
+	focus = {
+		id = AST_larger_mil
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_forward_defense
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 44
+		y = 7
+		completion_reward = {
+			#
+		}
+	}
+	focus = {
+		id = AST_adfa
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_larger_mil
+			focus = AST_downsize_mil
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 44
+		y = 7
+		completion_reward = {
+			#
+		}
+	}
+	###### land
+	focus = {
+		id = AST_land_force
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_doctrine_effort
+		}
+		cost = 10.00
+		allow_branch = { date < 1960.12.31 }
+		x = 48
+		y = 6
+		completion_reward = {
+			#
+		}
+	}
+	##### DOMESTIC
+	focus = {
 		id = AST_domestic_reforms
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
