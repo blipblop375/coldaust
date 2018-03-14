@@ -124,4 +124,49 @@ focus_tree = {
 			add_ideas = self_defense_military
 		}
 	}
+	focus = {
+		id = AST_domestic_reforms
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_menzies_vic
+		}
+		cost = 10.00
+		x = 42
+		y = 6
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = AST_ban_communist
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_domestic_reforms
+		}
+		cost = 10.00
+		x = 42
+		y = 6
+		completion_reward = {
+			add_political_power = -25
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+		}
+	}
+	focus = {
+		id = AST_end_rationing
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ban_communist
+		}
+		cost = 10.00
+		x = 42
+		y = 6
+		completion_reward = {
+			consumer_goods_factor = -0.1
+			add_political_power = 25
+
+		}
+	}
 }
