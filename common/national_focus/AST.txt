@@ -193,7 +193,7 @@ focus_tree = {
 		x = 46
 		y = 7
 		completion_reward = {
-			# forts in north
+			# forts in north around darwin
 		}
 	}
 	focus = {
@@ -221,7 +221,7 @@ focus_tree = {
 		x = 46
 		y = 9
 		completion_reward = {
-			#### 2 military factories in tasmania
+			#### 2 military factories in state 285
 		}
 	}
 	focus = {
