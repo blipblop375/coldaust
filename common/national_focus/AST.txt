@@ -369,4 +369,96 @@ focus_tree = {
 		add_research_slot = 1
 		}
 	}
+	focus = {
+		id = AST_brit_atomic
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_fund_university
+		}
+		cost = 10.00
+		x = 34
+		y = 7
+		completion_reward = {
+		add_tech_bonus = {
+				name = nuclear_bonus
+				bonus  = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = AST_AAE_commision
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_brit_atomic
+		}
+		cost = 10.00
+		x = 34
+		y = 7
+		completion_reward = {
+		add_tech_bonus = {
+				name = nuclear_bonus
+				bonus  = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = AST_lucas_reactor
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_AAE_commision
+		}
+		cost = 10.00
+		x = 34
+		y = 7
+		completion_reward = {
+		add_tech_bonus = {
+				name = nuclear_bonus
+				bonus  = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = AST_secret_weapons
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_fund_university
+		}
+		cost = 10.00
+		x = 34
+		y = 7
+		completion_reward = {
+		add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = AST_rocket
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_fund_university
+		}
+		cost = 10.00
+		x = 34
+		y = 7
+		completion_reward = {
+		add_tech_bonus = {
+				name = rocket_bonus
+				bonus = 0.5
+				uses = 4
+				category = rocketry
+			}
+		}
+	}
 }
