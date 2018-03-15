@@ -249,8 +249,8 @@ focus_tree = {
 			focus = AST_end_rationing
 		}
 		cost = 10.00
-		x = 42
-		y = 6
+		x = 38
+		y = 7
 		completion_reward = {
 			random_owned_state = {
 				add_building_construction = {
@@ -274,8 +274,8 @@ focus_tree = {
 			focus = AST_infrastructure_upgrade
 		}
 		cost = 10.00
-		x = 42
-		y = 6
+		x = 38
+		y = 8
 		completion_reward = {
 		521 = {	add_building_construction = {
 					type = infrastructure
@@ -304,8 +304,8 @@ focus_tree = {
 			focus = AST_infrastructure_upgrade
 		}
 		cost = 10.00
-		x = 42
-		y = 6
+		x = 38
+		y = 9
 		completion_reward = {
 		517 = {	add_building_construction = {
 					type = infrastructure
