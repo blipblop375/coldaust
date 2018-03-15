@@ -301,7 +301,7 @@ focus_tree = {
 		id = AST_highway_one
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_infrastructure_upgrade
+			focus = AST_highway
 		}
 		cost = 10.00
 		x = 42
