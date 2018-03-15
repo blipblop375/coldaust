@@ -335,4 +335,37 @@ focus_tree = {
 		
 	}
 	}
+	focus = {
+		id = AST_scholarship
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ban_communist
+		}
+		cost = 10.00
+		x = 38
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_political_power = 25
+
+		}
+	}
+	focus = {
+		id = AST_scholarship
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_scholarship
+		}
+		cost = 10.00
+		x = 38
+		y = 6
+		completion_reward = {
+		add_research_slot = 1
+		}
+	}
 }
