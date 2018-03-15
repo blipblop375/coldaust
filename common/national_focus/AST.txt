@@ -342,7 +342,7 @@ focus_tree = {
 			focus = AST_ban_communist
 		}
 		cost = 10.00
-		x = 38
+		x = 34
 		y = 6
 		completion_reward = {
 			add_tech_bonus = {
@@ -356,14 +356,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AST_scholarship
+		id = AST_scholarship2
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = AST_scholarship
 		}
 		cost = 10.00
-		x = 38
-		y = 6
+		x = 34
+		y = 7
 		completion_reward = {
 		add_research_slot = 1
 		}
