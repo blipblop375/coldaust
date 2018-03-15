@@ -266,6 +266,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+		}
 	}
 	focus = {
 		id = AST_highway
@@ -356,7 +357,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AST_scholarship
+		id = AST_fund_university
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = AST_scholarship
