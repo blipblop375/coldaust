@@ -109,6 +109,15 @@ set_technology = {
 
 add_ideas = {
 	population_growth_steady
+	foreign_air_reliance
+	foreign_navy_reliance
+	governor_general
+	red_scare
+	rationing
+	refugees
+	economic_downturn
+	inflation
+	king_george_vi
 }
 1949.1.1 = {
 	add_ai_strategy = {
