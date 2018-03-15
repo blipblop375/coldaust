@@ -376,8 +376,8 @@ focus_tree = {
 			focus = AST_fund_university
 		}
 		cost = 10.00
-		x = 34
-		y = 7
+		x = 29
+		y = 8
 		completion_reward = {
 		add_tech_bonus = {
 				name = nuclear_bonus
@@ -394,8 +394,8 @@ focus_tree = {
 			focus = AST_brit_atomic
 		}
 		cost = 10.00
-		x = 34
-		y = 7
+		x = 27
+		y = 8
 		completion_reward = {
 		add_tech_bonus = {
 				name = nuclear_bonus
@@ -412,8 +412,8 @@ focus_tree = {
 			focus = AST_AAE_commision
 		}
 		cost = 10.00
-		x = 34
-		y = 7
+		x = 27
+		y = 9
 		completion_reward = {
 		add_tech_bonus = {
 				name = nuclear_bonus
@@ -430,8 +430,8 @@ focus_tree = {
 			focus = AST_fund_university
 		}
 		cost = 10.00
-		x = 34
-		y = 7
+		x = 29
+		y = 8
 		completion_reward = {
 		add_tech_bonus = {
 				name = secret_bonus
@@ -450,8 +450,8 @@ focus_tree = {
 			focus = AST_fund_university
 		}
 		cost = 10.00
-		x = 34
-		y = 7
+		x = 29
+		y = 9
 		completion_reward = {
 		add_tech_bonus = {
 				name = rocket_bonus
