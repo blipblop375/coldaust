@@ -297,6 +297,7 @@ focus_tree = {
 		}
 		
 	}
+	}
 	focus = {
 		id = AST_highway_one
 		icon = GFX_goal_generic_construction2
@@ -332,5 +333,6 @@ focus_tree = {
 				}
 		}
 		
+	}
 	}
 }
