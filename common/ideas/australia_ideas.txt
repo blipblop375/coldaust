@@ -54,7 +54,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_bonus = { air = -0.8 }
+				research_bonus = { air = -0.9 }
 			}
 		}
 		foreign_navy_reliance = {
@@ -68,7 +68,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_bonus = { navy = -0.8 }
+				research_bonus = { navy = -0.9 }
 			}
 		}
 		governor_general = {
@@ -82,8 +82,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				stability_factor  = 0.05
-				war_support_factor = 0.10
+				stability_factor  = 0.02
+				war_support_factor = 0.05
 			}
 		}
 		red_scare = {
@@ -113,7 +113,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = -0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = 0.1
 			}
 		}
 		refugees = {
@@ -144,6 +144,19 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = -0.1
 				 line_change_production_efficiency_factor = -0.05
+			}
+		}
+		national_service_act_50 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				conscription = 0.01
 			}
 		}
 		inflation = {
