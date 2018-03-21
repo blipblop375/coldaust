@@ -119,6 +119,48 @@ focus_tree = {
 			######
 		}
 	}
+	focus = {
+		id = AST_aid_to_malaysia
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_foreign_affairs
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 8
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_aid_to_south_kor
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_foreign_affairs
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 9
+		completion_reward = {
+			send_equipment = { target = KOR type = infantry_equipment amount = 500 }
+		}
+	}
+	focus = {
+		id = AST_ANZUS
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_foreign_affairs
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 10
+		completion_reward = {
+			######
+		}
+	}
 	##### ARMY
 	focus = {
 		id = AST_lessons_ww2
