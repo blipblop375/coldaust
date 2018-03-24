@@ -163,6 +163,179 @@ focus_tree = {
 			USA = { give_guarantee = NZL }
 		}
 	}
+##### FOREIGN POLICY
+	focus = {
+		id = AST_forgive_jap
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 11
+		completion_reward = {
+			######
+		}
+	}
+#### SEATO
+	focus = {
+		id = AST_assist_filipinos
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 18
+		y = 11
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_equipment_indonesia
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_assist_filipinos
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 18
+		y = 12
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_guarentee_south
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_equipment_indonesia
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 17
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_guarentee_north
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_equipment_indonesia
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 19
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+#### COLOMBO 
+	focus = {
+		id = AST_colombo
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 16
+		y = 12
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_aid_india
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_colombo
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 16
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_aid_ceylon
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_aid_india
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 16
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_aid_burma
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_aid_ceylon
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 16
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_aid_nepal
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_aid_burma
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 16
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+####### PACIFIC ISLANDS TREE
+	focus = {
+		id = AST_ask_for_trust
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 11
+		completion_reward = {
+			######
+		}
+	}
+##### ANNEX NZL
+	focus = {
+		id = AST_ANZUS_relations
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 11
+		completion_reward = {
+			######
+		}
+	}
 	##### ARMY
 	focus = {
 		id = AST_lessons_ww2
