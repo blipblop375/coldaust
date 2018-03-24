@@ -748,13 +748,104 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = AST_central_aus_mine
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_fund_university
+		}
+		cost = 10.00
+		x = 13
+		y = 8
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_develop_alice_springs
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_central_aus_mine
+		}
+		cost = 10.00
+		x = 13
+		y = 9
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_develop_sydney
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_develop_alice_springs
+		}
+		cost = 10.00
+		x = 13
+		y = 10
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_develop_ACT
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_develop_sydney
+		}
+		cost = 10.00
+		x = 13
+		y = 11
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_antarctic
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_fund_university
+		}
+		cost = 10.00
+		x = 11
+		y = 8
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_mawson_station
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_antarctic
+		}
+		cost = 10.00
+		x = 11
+		y = 9
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
+		id = AST_davis_station
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_mawson_station
+		}
+		cost = 10.00
+		x = 11
+		y = 10
+		completion_reward = {
+			###
+		}
+	}
+	focus = {
 		id = AST_brit_atomic
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = AST_fund_university
 		}
 		cost = 10.00
-		x = 5
+		x = 9
 		y = 8
 		completion_reward = {
 		add_tech_bonus = {
@@ -772,7 +863,7 @@ focus_tree = {
 			focus = AST_brit_atomic
 		}
 		cost = 10.00
-		x = 5
+		x = 9
 		y = 9
 		completion_reward = {
 		add_tech_bonus = {
@@ -790,7 +881,7 @@ focus_tree = {
 			focus = AST_AAE_commision
 		}
 		cost = 10.00
-		x = 5
+		x = 9
 		y = 10
 		completion_reward = {
 		285 = {	add_building_construction = {
@@ -814,7 +905,7 @@ focus_tree = {
 			focus = AST_brit_atomic
 		}
 		cost = 10.00
-		x = 3
+		x = 7
 		y = 9
 		completion_reward = {
 		add_tech_bonus = {
@@ -834,7 +925,7 @@ focus_tree = {
 			focus = AST_secret_weapons
 		}
 		cost = 10.00
-		x = 3
+		x = 7
 		y = 10
 		completion_reward = {
 		add_tech_bonus = {
