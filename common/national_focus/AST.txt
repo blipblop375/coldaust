@@ -178,6 +178,62 @@ focus_tree = {
 			######
 		}
 	}
+	focus = {
+		id = AST_invest_in_jap
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_forgive_jap
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 12
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_further_invest_in_jap
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_invest_in_jap
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_demine_jap
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_further_invest_in_jap
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_agreement_of_commerce
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_demin_jap
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 20
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
 #### SEATO
 	focus = {
 		id = AST_assist_filipinos
@@ -235,6 +291,35 @@ focus_tree = {
 			######
 		}
 	}
+	focus = {
+		id = AST_aust_influence_in_southeast
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_guarentee_north
+			focus = AST_guarentee_south
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 18
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_form_seato
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_aust_influence_in_southeast
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 18
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
 #### COLOMBO 
 	focus = {
 		id = AST_colombo
@@ -258,7 +343,7 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
-		x = 16
+		x = 15
 		y = 13
 		completion_reward = {
 			######
@@ -272,7 +357,7 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
-		x = 16
+		x = 15
 		y = 14
 		completion_reward = {
 			######
@@ -286,7 +371,7 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
-		x = 16
+		x = 15
 		y = 15
 		completion_reward = {
 			######
@@ -300,7 +385,7 @@ focus_tree = {
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
-		x = 16
+		x = 15
 		y = 16
 		completion_reward = {
 			######
