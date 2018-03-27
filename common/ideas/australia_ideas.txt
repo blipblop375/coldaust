@@ -53,9 +53,9 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = {
-				research_bonus = { air_equipment = -0.9 }
-			}
+			
+			research_bonus = { air_equipment = -0.9 }
+			
 		}
 		foreign_navy_reliance = {
 		
@@ -67,9 +67,9 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = {
-				research_bonus = { naval_equipment = -0.9 }
-			}
+		
+			research_bonus = { naval_equipment = -0.9 }
+	
 		}
 		governor_general = {
 		
