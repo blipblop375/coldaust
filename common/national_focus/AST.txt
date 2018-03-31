@@ -120,6 +120,34 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = AST_closer_ties_NATO
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_closer_ties_britain
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 21
+		y = 8
+		completion_reward = {
+			#####
+		}
+	}
+	focus = {
+		id = AST_leave_NATO
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_aust_first
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 19
+		y = 8
+		completion_reward = {
+			#####
+		}
+	}
+	focus = {
 		id = AST_aid_to_malaysia
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
@@ -128,9 +156,9 @@ focus_tree = {
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 20
-		y = 8
+		y = 7
 		completion_reward = {
-			send_equipment = { target = MAY type = infantry_equipment amount = 500 }
+			send_equipment = { target = MAL type = infantry_equipment amount = 500 }
 		}
 	}
 	focus = {
@@ -1217,7 +1245,7 @@ focus_tree = {
 		x = 29
 		y = 11
 		completion_reward = {
-			##### add 4 naval dockyards
+			#####
 		}
 	}
 	###### AIR
@@ -1232,7 +1260,7 @@ focus_tree = {
 		x = 33
 		y = 6
 		completion_reward = {
-			##### add 4 naval dockyards
+			#####
 		}
 	}
 	focus = {
@@ -1246,7 +1274,7 @@ focus_tree = {
 		x = 32
 		y = 7
 		completion_reward = {
-			##### add 4 naval dockyards
+			#####
 		}
 	}
 	focus = {
@@ -1260,7 +1288,7 @@ focus_tree = {
 		x = 34
 		y = 7
 		completion_reward = {
-			##### add 4 naval dockyards
+			#####
 		}
 	}
 	focus = {
@@ -1274,7 +1302,7 @@ focus_tree = {
 		x = 32
 		y = 8
 		completion_reward = {
-			##### add 4 naval dockyards
+			##### 
 		}
 	}
 	focus = {
@@ -1288,7 +1316,7 @@ focus_tree = {
 		x = 34
 		y = 8
 		completion_reward = {
-			##### add 4 naval dockyards
+			##### 
 		}
 	}
 	focus = {
@@ -1303,21 +1331,21 @@ focus_tree = {
 		x = 33
 		y = 9
 		completion_reward = {
-			##### add 4 naval dockyards
+			##### 
 		}
 	}
 	focus = {
 		id = AST_larger_airfields
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_american_advisors
+			focus = AST_american_advisors1
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 33
 		y = 10
 		completion_reward = {
-			##### add 4 naval dockyards
+			##### 
 		}
 	}
 	focus = {
@@ -1331,7 +1359,7 @@ focus_tree = {
 		x = 33
 		y = 11
 		completion_reward = {
-			##### add 4 naval dockyards
+			##### 
 		}
 	}
 	##### DOMESTIC
