@@ -72,7 +72,6 @@ set_technology = {
 	jet_fighter2 = 1
 	jet_interceptor1 = 1
 	jet_interceptor2 = 1
-	jet_strategic_bomber1 = 1
 	jet_tactical_bomber1 = 1
 	landing_craft = 1
 	light_carrier1 = 1
@@ -80,7 +79,6 @@ set_technology = {
 	light_tanks_1 = 1
 	main_battle_tanks_1 = 1
 	main_battle_tanks_2 = 1
-	mechanized_heavy_infantry = 1
 	mechanized_infantry = 1
 	mechanized_infantry2 = 1
 	mortar_infantry_weapons_1 = 1
@@ -96,14 +94,14 @@ set_technology = {
 	sp_rocket1 = 1
 	sp_rocket2 = 1
 	strategic_bomber1 = 1
-	strategic_bomber2 = 1
 	synth_oil_experiments = 1
 	tactical_bomber1 = 1
 	tactical_bomber2 = 1
 	tactical_bomber3 = 1
 	tank_landing_craft = 1
 	tech_support = 1
-	transport = 1
+	transport1 = 1
+	transport2 = 1
 }
 
 
@@ -129,26 +127,23 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		republicanism = { 
+			popularity = 10
 		}
 		socialist = {
-			popularity = 25
+			popularity = 45
 		}
 		conservative = {
-			popularity = 20
-		}
-		centrist = {
-			popularity = 14
+			popularity = 39
 		}
 		fascism = {
-			popularity = 6
+			popularity = 1
 		}
 		nationalism = {
-			popularity = 7
+			popularity = 2
 		}
 		communism = {
-			popularity = 11
+			popularity = 3
 		}
 	}
 	

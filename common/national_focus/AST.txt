@@ -201,7 +201,7 @@ focus_tree = {
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 20
-		y = 13
+		y = 14
 		completion_reward = {
 			######
 		}
@@ -215,7 +215,7 @@ focus_tree = {
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 20
-		y = 14
+		y = 15
 		completion_reward = {
 			######
 		}
@@ -224,12 +224,12 @@ focus_tree = {
 		id = AST_agreement_of_commerce
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_demin_jap
+			focus = AST_demine_jap
 		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 20
-		y = 15
+		y = 16
 		completion_reward = {
 			######
 		}
@@ -406,6 +406,134 @@ focus_tree = {
 			######
 		}
 	}
+	focus = {
+		id = AST_make_micronesia
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ask_for_trust
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 21
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_integrate
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ask_for_trust
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 23
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_build_up_pacific_islands
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_integrate
+			focus = AST_make_micronesia
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_pacific_airfields
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_build_up_pacific_islands
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_ask_gilbert_islands
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_pacific_airfields
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_integrate_kiribati
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ask_gilbert_islands
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 23
+		y = 17
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_create_kiribati
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ask_gilbert_islands
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 21
+		y = 17
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_build_up_kiribati
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_integrate_kiribati
+			focus = AST_create_kiribati
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 18
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_expand_gilbert_ports
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_build_up_kiribati
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 22
+		y = 19
+		completion_reward = {
+			######
+		}
+	}
 ##### ANNEX NZL
 	focus = {
 		id = AST_ANZUS_relations
@@ -417,6 +545,318 @@ focus_tree = {
 		allow_branch = { date < 1965.12.31 }
 		x = 24
 		y = 11
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_NZL_relations
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS_relations
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 27
+		y = 12
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_independent_defense
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_NZL_relations
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 26
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_joint_defense
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_NZL_relations
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 28
+		y = 13
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_central_command_NZL
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_independent_defense
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 26
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_shared_exercises
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_central_command_NZL
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 26
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_assist_NZL_modern
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_joint_defense
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 28
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_reform_ANZAC
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_assist_NZL_modern
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 28
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_invest_in_NZL
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_assist_NZL_modern
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 30
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_NZL_old_army_2
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_assist_NZL_modern
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 32
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_joint_exercise_with_NZL
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_reform_ANZAC
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 28
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_Australia_NZL_Ferry
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_invest_in_NZL
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 30
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_surplus_NZL_aircraft
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_NZL_old_army_2
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 32
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_single_currency
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_Australia_NZL_Ferry
+		}
+		prerequisite = {
+			focus = AST_joint_exercise_with_NZL
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 29
+		y = 17
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_joint_economy_NZL
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_single_currency
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 29
+		y = 18
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_standardized_economy
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_joint_economy_NZL
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 29
+		y = 19
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_the_ANZAC_federation
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_standardized_economy
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 29
+		y = 20
+		completion_reward = {
+			######
+		}
+	}
+	###America
+	focus = {
+		id = AST_US_relations
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_ANZUS
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 12
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_US_radar
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_US_relations
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 14
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_recieve_older_US
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_US_radar
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 15
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_US_basing
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_recieve_older_US
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 16
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_US_AA_Defense_NSW
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_US_basing
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 18
+		completion_reward = {
+			######
+		}
+	}
+	focus = {
+		id = AST_US_radar_research
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_US_AA_Defense_NSW
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 24
+		y = 19
 		completion_reward = {
 			######
 		}
@@ -775,6 +1215,120 @@ focus_tree = {
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 29
+		y = 11
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	###### AIR
+	focus = {
+		id = AST_the_Australian_Air_Force
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_doctrine_effort
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 33
+		y = 6
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_invest_in_strategic_bomb
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_the_Australian_Air_Force
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 32
+		y = 7
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_invest_air_defense
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_the_Australian_Air_Force
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 34
+		y = 7
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_obtain_valiant
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_invest_in_strategic_bomb
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 32
+		y = 8
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_obtain_hunter
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_invest_air_defense
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 34
+		y = 8
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_american_advisors1
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_obtain_valiant
+			focus = AST_obtain_hunter
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 33
+		y = 9
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_larger_airfields
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_american_advisors
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 33
+		y = 10
+		completion_reward = {
+			##### add 4 naval dockyards
+		}
+	}
+	focus = {
+		id = AST_the_F86
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = AST_larger_airfields
+		}
+		cost = 10.00
+		allow_branch = { date < 1965.12.31 }
+		x = 33
 		y = 11
 		completion_reward = {
 			##### add 4 naval dockyards
