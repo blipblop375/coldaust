@@ -127,7 +127,8 @@ focus_tree = {
 		x = 21
 		y = 5
 		completion_reward = {
-			add_opinion_modifier = { target = ENG modifier = improve_with_nato }
+			AST = { add_opinion_modifier = { target = ENG modifier = large_increase } }
+			ENG = { add_opinion_modifier = { target = AST modifier = large_increase } }
 		}
 	}
 	focus = {
@@ -212,7 +213,8 @@ focus_tree = {
 		x = 20
 		y = 11
 		completion_reward = {
-			###### Better Relations with Japan
+			AST = { add_opinion_modifier = { target = JAP modifier = large_increase } }
+			JAP = { add_opinion_modifier = { target = AST modifier = large_increase } }
 		}
 	}
 	focus = {
@@ -240,7 +242,22 @@ focus_tree = {
 		x = 20
 		y = 14
 		completion_reward = {
-			###### Civilian Factories in Japan
+			 JAP = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
+			JAP = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -254,7 +271,7 @@ focus_tree = {
 		x = 20
 		y = 15
 		completion_reward = {
-			###### 25 naval XP
+			navy_experience = 25
 		}
 	}
 	focus = {
@@ -268,8 +285,23 @@ focus_tree = {
 		x = 20
 		y = 16
 		completion_reward = {
-			###### 3 civilian factories in Japan
-		}
+			282 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+			}
 	}
 #### SEATO
 	focus = {
@@ -283,7 +315,13 @@ focus_tree = {
 		x = 18
 		y = 11
 		completion_reward = {
-			###### 1 Civilian Factory
+			623 = { 
+			add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+			}
 		}
 	}
 	focus = {
@@ -311,7 +349,7 @@ focus_tree = {
 		x = 17
 		y = 13
 		completion_reward = {
-			###### obvious
+			give_guarantee = KOR
 		}
 	}
 	focus = {
@@ -325,7 +363,7 @@ focus_tree = {
 		x = 19
 		y = 13
 		completion_reward = {
-			###### obvious
+			give_guarantee = KPA
 		}
 	}
 	focus = {
@@ -383,7 +421,7 @@ focus_tree = {
 		x = 15
 		y = 13
 		completion_reward = {
-			###### Add steel production in India
+			add_resource = { type = steel amount = 8 state = 426 }
 		}
 	}
 	focus = {
@@ -397,7 +435,7 @@ focus_tree = {
 		x = 15
 		y = 14
 		completion_reward = {
-			###### Add steel production in Ceylon
+			add_resource = { type = steel amount = 8 state = 422 }
 		}
 	}
 	focus = {
@@ -411,7 +449,15 @@ focus_tree = {
 		x = 15
 		y = 15
 		completion_reward = {
-			###### Add Steel production in Burma. Add 1 civilian factory
+			add_resource = { type = steel amount = 8 state = 288 }
+			 MYR = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -425,7 +471,14 @@ focus_tree = {
 		x = 15
 		y = 16
 		completion_reward = {
-			###### Civilian factory in Nepal
+			 NEP = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
 		}
 	}
 ####### PACIFIC ISLANDS TREE
@@ -454,7 +507,7 @@ focus_tree = {
 		x = 21
 		y = 13
 		completion_reward = {
-			###### Makes Micronesia puppet
+			puppet = TTP
 		}
 	}
 	focus = {
@@ -468,7 +521,7 @@ focus_tree = {
 		x = 23
 		y = 13
 		completion_reward = {
-			###### Annexes trust territory
+			annex = TTP
 		}
 	}
 	focus = {
