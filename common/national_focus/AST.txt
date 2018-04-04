@@ -88,7 +88,7 @@ focus_tree = {
 		x = 20
 		y = 6
 		completion_reward = {
-			######
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -102,7 +102,18 @@ focus_tree = {
 		x = 19
 		y = 5
 		completion_reward = {
-			#####
+				USA = {
+					add_opinion_modifier = {
+					target = AST
+					modifier = large_decrease
+					}		
+				}
+				ENG = {
+					add_opinion_modifier = {
+					target = AST
+					modifier = large_decrease
+				}
+			}
 		}
 	}
 	focus = {
@@ -130,7 +141,7 @@ focus_tree = {
 		x = 21
 		y = 8
 		completion_reward = {
-			#####
+			##### Better relations with NATO
 		}
 	}
 	focus = {
@@ -144,7 +155,7 @@ focus_tree = {
 		x = 19
 		y = 8
 		completion_reward = {
-			#####
+			AST = { remove_from_faction = ROOT }
 		}
 	}
 	focus = {
@@ -186,9 +197,7 @@ focus_tree = {
 		x = 20
 		y = 10
 		completion_reward = {
-			give_guarantee = NZL
-			USA = { give_guarantee = AST }
-			USA = { give_guarantee = NZL }
+			remove_ideas = anzus
 		}
 	}
 ##### FOREIGN POLICY
@@ -203,7 +212,7 @@ focus_tree = {
 		x = 20
 		y = 11
 		completion_reward = {
-			######
+			###### Better Relations with Japan
 		}
 	}
 	focus = {
@@ -217,7 +226,7 @@ focus_tree = {
 		x = 20
 		y = 12
 		completion_reward = {
-			######
+			###### Resources in Japan
 		}
 	}
 	focus = {
@@ -231,7 +240,7 @@ focus_tree = {
 		x = 20
 		y = 14
 		completion_reward = {
-			######
+			###### Civilian Factories in Japan
 		}
 	}
 	focus = {
@@ -245,7 +254,7 @@ focus_tree = {
 		x = 20
 		y = 15
 		completion_reward = {
-			######
+			###### 25 naval XP
 		}
 	}
 	focus = {
@@ -259,7 +268,7 @@ focus_tree = {
 		x = 20
 		y = 16
 		completion_reward = {
-			######
+			###### 3 civilian factories in Japan
 		}
 	}
 #### SEATO
@@ -274,7 +283,7 @@ focus_tree = {
 		x = 18
 		y = 11
 		completion_reward = {
-			######
+			###### 1 Civilian Factory
 		}
 	}
 	focus = {
@@ -288,7 +297,7 @@ focus_tree = {
 		x = 18
 		y = 12
 		completion_reward = {
-			######
+			###### infantry equipment to indonesia. Bypass if Indonesia doesnt exist
 		}
 	}
 	focus = {
@@ -302,7 +311,7 @@ focus_tree = {
 		x = 17
 		y = 13
 		completion_reward = {
-			######
+			###### obvious
 		}
 	}
 	focus = {
@@ -316,7 +325,7 @@ focus_tree = {
 		x = 19
 		y = 13
 		completion_reward = {
-			######
+			###### obvious
 		}
 	}
 	focus = {
@@ -331,7 +340,7 @@ focus_tree = {
 		x = 18
 		y = 14
 		completion_reward = {
-			######
+			###### Better relations with surroundign countries. IE Philippines, Indonesia, Burma, etc
 		}
 	}
 	focus = {
@@ -345,7 +354,7 @@ focus_tree = {
 		x = 18
 		y = 15
 		completion_reward = {
-			######
+			###### Add Idea called SEATO. SEATO = Better Political Power Gain and ideology defense
 		}
 	}
 #### COLOMBO 
@@ -360,7 +369,7 @@ focus_tree = {
 		x = 16
 		y = 12
 		completion_reward = {
-			######
+			###### add Idea called Colombo Plan. Civilian construction speed is better by 5% and research time is slightly reduced
 		}
 	}
 	focus = {
@@ -374,7 +383,7 @@ focus_tree = {
 		x = 15
 		y = 13
 		completion_reward = {
-			######
+			###### Add steel production in India
 		}
 	}
 	focus = {
@@ -388,7 +397,7 @@ focus_tree = {
 		x = 15
 		y = 14
 		completion_reward = {
-			######
+			###### Add steel production in Ceylon
 		}
 	}
 	focus = {
@@ -402,7 +411,7 @@ focus_tree = {
 		x = 15
 		y = 15
 		completion_reward = {
-			######
+			###### Add Steel production in Burma. Add 1 civilian factory
 		}
 	}
 	focus = {
@@ -416,7 +425,7 @@ focus_tree = {
 		x = 15
 		y = 16
 		completion_reward = {
-			######
+			###### Civilian factory in Nepal
 		}
 	}
 ####### PACIFIC ISLANDS TREE
@@ -431,7 +440,7 @@ focus_tree = {
 		x = 22
 		y = 11
 		completion_reward = {
-			######
+			###### US Gets event about asking for the Trust Islands
 		}
 	}
 	focus = {
@@ -445,7 +454,7 @@ focus_tree = {
 		x = 21
 		y = 13
 		completion_reward = {
-			######
+			###### Makes Micronesia puppet
 		}
 	}
 	focus = {
@@ -459,7 +468,7 @@ focus_tree = {
 		x = 23
 		y = 13
 		completion_reward = {
-			######
+			###### Annexes trust territory
 		}
 	}
 	focus = {
@@ -474,7 +483,7 @@ focus_tree = {
 		x = 22
 		y = 14
 		completion_reward = {
-			######
+			###### Add Naval Bases in Trust Territory
 		}
 	}
 	focus = {
@@ -488,7 +497,7 @@ focus_tree = {
 		x = 22
 		y = 15
 		completion_reward = {
-			######
+			###### Better airfields
 		}
 	}
 	focus = {
@@ -502,7 +511,7 @@ focus_tree = {
 		x = 22
 		y = 16
 		completion_reward = {
-			######
+			###### Ask Britain for the Gilbert Islands
 		}
 	}
 	focus = {
@@ -516,7 +525,7 @@ focus_tree = {
 		x = 23
 		y = 17
 		completion_reward = {
-			######
+			###### Annex gilbert islands
 		}
 	}
 	focus = {
@@ -530,7 +539,7 @@ focus_tree = {
 		x = 21
 		y = 17
 		completion_reward = {
-			######
+			###### Create a puppet called Kiribati
 		}
 	}
 	focus = {
@@ -545,7 +554,7 @@ focus_tree = {
 		x = 22
 		y = 18
 		completion_reward = {
-			######
+			###### More naval bases in Kiribati
 		}
 	}
 	focus = {
@@ -559,7 +568,7 @@ focus_tree = {
 		x = 22
 		y = 19
 		completion_reward = {
-			######
+			###### better ports in the Gilbert Islands
 		}
 	}
 ##### ANNEX NZL
@@ -574,7 +583,7 @@ focus_tree = {
 		x = 24
 		y = 11
 		completion_reward = {
-			######
+			###### political power
 		}
 	}
 	focus = {
@@ -588,7 +597,7 @@ focus_tree = {
 		x = 27
 		y = 12
 		completion_reward = {
-			######
+			###### better relations with NZL 
 		}
 	}
 	focus = {
@@ -602,7 +611,7 @@ focus_tree = {
 		x = 26
 		y = 13
 		completion_reward = {
-			######
+			###### 30 navy XP
 		}
 	}
 	focus = {
@@ -616,7 +625,7 @@ focus_tree = {
 		x = 28
 		y = 13
 		completion_reward = {
-			######
+			###### Add 10 navy XP
 		}
 	}
 	focus = {
@@ -630,7 +639,7 @@ focus_tree = {
 		x = 26
 		y = 14
 		completion_reward = {
-			######
+			###### 
 		}
 	}
 	focus = {
@@ -644,7 +653,7 @@ focus_tree = {
 		x = 26
 		y = 15
 		completion_reward = {
-			######
+			###### 
 		}
 	}
 	focus = {
@@ -658,7 +667,7 @@ focus_tree = {
 		x = 28
 		y = 14
 		completion_reward = {
-			######
+			###### NZL more factories
 		}
 	}
 	focus = {
@@ -672,7 +681,7 @@ focus_tree = {
 		x = 28
 		y = 15
 		completion_reward = {
-			######
+			###### Add Idea ANZAC. more recruitable population but added civilian factory construction speed
 		}
 	}
 	focus = {
@@ -686,7 +695,7 @@ focus_tree = {
 		x = 30
 		y = 15
 		completion_reward = {
-			######
+			###### Tungsten in NZL
 		}
 	}
 	focus = {
@@ -700,7 +709,7 @@ focus_tree = {
 		x = 32
 		y = 15
 		completion_reward = {
-			######
+			###### Give NZL army equipment
 		}
 	}
 	focus = {
@@ -714,7 +723,7 @@ focus_tree = {
 		x = 28
 		y = 16
 		completion_reward = {
-			######
+			###### army, air, annd navy xp
 		}
 	}
 	focus = {
@@ -728,7 +737,7 @@ focus_tree = {
 		x = 30
 		y = 16
 		completion_reward = {
-			######
+			###### ports along NZL and Australia coast
 		}
 	}
 	focus = {
@@ -742,7 +751,7 @@ focus_tree = {
 		x = 32
 		y = 16
 		completion_reward = {
-			######
+			###### Give NZL 50 aircraft
 		}
 	}
 	focus = {
@@ -759,7 +768,7 @@ focus_tree = {
 		x = 29
 		y = 17
 		completion_reward = {
-			######
+			###### Add Idea Single Currency. less consumer goods needed
 		}
 	}
 	focus = {
@@ -773,7 +782,7 @@ focus_tree = {
 		x = 29
 		y = 18
 		completion_reward = {
-			######
+			###### Add more civilian factories in NZL
 		}
 	}
 	focus = {
@@ -787,7 +796,7 @@ focus_tree = {
 		x = 29
 		y = 19
 		completion_reward = {
-			######
+			###### Add Political Power
 		}
 	}
 	focus = {
@@ -801,7 +810,7 @@ focus_tree = {
 		x = 29
 		y = 20
 		completion_reward = {
-			######
+			###### Get even for annexing NZL. Change country name to Oceanic Commonwealth
 		}
 	}
 	###America

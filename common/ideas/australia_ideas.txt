@@ -205,5 +205,19 @@ ideas = {
 				stability_factor = 0.10 
 			}
 		}
+		anzus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				drift_defence_factor = 0.2
+			}
+		}
 	}
 }
