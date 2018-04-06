@@ -228,7 +228,8 @@ focus_tree = {
 		x = 20
 		y = 12
 		completion_reward = {
-			###### Resources in Japan
+			add_resource = { type = steel amount = 8 state = 532 }
+			add_resource = { type = tungsten amount = 8 state = 532 }
 		}
 	}
 	focus = {
@@ -331,12 +332,17 @@ focus_tree = {
 		prerequisite = {
 			focus = AST_assist_filipinos
 		}
+		bypass = { 
+			OR = {
+				NOT = { country_exists = INO }
+			}
+		}
 		cost = 10.00
 		allow_branch = { date < 1965.12.31 }
 		x = 18
 		y = 12
 		completion_reward = {
-			###### infantry equipment to indonesia. Bypass if Indonesia doesnt exist
+			send_equipment = { target = INO type = infantry_equipment amount = 500 }
 		}
 	}
 	focus = {
@@ -522,7 +528,7 @@ focus_tree = {
 		x = 23
 		y = 13
 		completion_reward = {
-			annex = TTP
+			annex_country = { target = TTP }
 		}
 	}
 	focus = {
@@ -637,7 +643,7 @@ focus_tree = {
 		x = 24
 		y = 11
 		completion_reward = {
-			###### political power
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -651,7 +657,8 @@ focus_tree = {
 		x = 27
 		y = 12
 		completion_reward = {
-			###### better relations with NZL 
+			AST = { add_opinion_modifier = { target = NZL modifier = large_increase } }
+			NZL = { add_opinion_modifier = { target = AST modifier = large_increase } }
 		}
 	}
 	focus = {
@@ -665,7 +672,7 @@ focus_tree = {
 		x = 26
 		y = 13
 		completion_reward = {
-			###### 30 navy XP
+			navy_experience = 30
 		}
 	}
 	focus = {
@@ -679,7 +686,7 @@ focus_tree = {
 		x = 28
 		y = 13
 		completion_reward = {
-			###### Add 10 navy XP
+			navy_experience = 10
 		}
 	}
 	focus = {
@@ -721,7 +728,22 @@ focus_tree = {
 		x = 28
 		y = 14
 		completion_reward = {
-			###### NZL more factories
+			 NZL = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
+			NZL = { random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -749,7 +771,7 @@ focus_tree = {
 		x = 30
 		y = 15
 		completion_reward = {
-			###### Tungsten in NZL
+			add_resource = { type = tungsten amount = 8 state = 723 }
 		}
 	}
 	focus = {
@@ -763,7 +785,7 @@ focus_tree = {
 		x = 32
 		y = 15
 		completion_reward = {
-			###### Give NZL army equipment
+			send_equipment = { target = NZL type = infantry_equipment amount = 500 }
 		}
 	}
 	focus = {
@@ -777,7 +799,9 @@ focus_tree = {
 		x = 28
 		y = 16
 		completion_reward = {
-			###### army, air, annd navy xp
+			army_xp =  10
+			air_xp = 10
+			navy_xp= 10
 		}
 	}
 	focus = {
@@ -791,7 +815,30 @@ focus_tree = {
 		x = 30
 		y = 16
 		completion_reward = {
-			###### ports along NZL and Australia coast
+			285 = {
+				add_building_construction = {
+					type = naval_base
+					province = 7520
+					level = 1
+					instant_build = yes
+				}
+			}
+			284 = {
+				add_building_construction = {
+					type = naval_base
+					province = 4543
+					level = 1
+					instant_build = yes
+				}
+			}
+			723 = {
+				add_building_construction = {
+					type = naval_base
+					province = 8212
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -850,7 +897,7 @@ focus_tree = {
 		x = 29
 		y = 19
 		completion_reward = {
-			###### Add Political Power
+			 add_political_power = 100
 		}
 	}
 	focus = {
@@ -864,7 +911,7 @@ focus_tree = {
 		x = 29
 		y = 20
 		completion_reward = {
-			###### Get even for annexing NZL. Change country name to Oceanic Commonwealth
+			country_event = ANZAC.1
 		}
 	}
 	###America
@@ -879,7 +926,8 @@ focus_tree = {
 		x = 24
 		y = 12
 		completion_reward = {
-			######
+			AST = { add_opinion_modifier = { target = USA modifier = large_increase } }
+			USA = { add_opinion_modifier = { target = AST modifier = large_increase } }
 		}
 	}
 	focus = {
@@ -1085,7 +1133,22 @@ focus_tree = {
 		x = 26
 		y = 7
 		completion_reward = {
-			# forts in north around darwin
+			520 = {
+				add_building_construction = {
+					type = bunker
+					province = 7669
+					level = 3
+					instant_build = yes
+				}
+			}
+			520 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 7669
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
