@@ -302,6 +302,7 @@ focus_tree = {
 					instant_build = yes
 					}
 			}
+		}
 	}
 #### SEATO
 	focus = {
