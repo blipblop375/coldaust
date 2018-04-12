@@ -1300,7 +1300,9 @@ focus_tree = {
 		x = 28
 		y = 8
 		completion_reward = {
-			##### load OOB with 9 darings
+			AST = {
+				load_oob = AST_Daring
+			}
 		}
 	}
 	focus = {
@@ -1314,7 +1316,9 @@ focus_tree = {
 		x = 30
 		y = 8
 		completion_reward = {
-			##### load OOB with melbourne and it's sisters
+			AST = {
+				load_oob = AST_Sydney
+			}
 		}
 	}
 	focus = {
@@ -1475,7 +1479,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AST_the_F86
+		id = AST_the_F100
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = AST_larger_airfields
@@ -1645,7 +1649,7 @@ focus_tree = {
 		id = AST_remove_illegals
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_ban_communist
+			focus = AST_war_time_refugee_remove
 		}
 		cost = 10.00
 		x = 15
@@ -1658,7 +1662,7 @@ focus_tree = {
 		id = AST_bring_out_the_briton
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_ban_communist
+			focus = AST_remove_illegals
 		}
 		cost = 10.00
 		x = 15
@@ -1671,7 +1675,7 @@ focus_tree = {
 		id = AST_aboriginal_vote
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_ban_communist
+			focus = AST_bring_out_the_briton
 		}
 		cost = 10.00
 		x = 15
@@ -1684,7 +1688,7 @@ focus_tree = {
 		id = AST_commonwealth_electoral_act_amendment
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_ban_communist
+			focus = AST_aboriginal_vote
 		}
 		cost = 10.00
 		x = 15
@@ -1697,7 +1701,7 @@ focus_tree = {
 		id = AST_work_opportunity
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = AST_ban_communist
+			focus = AST_commonwealth_electoral_act_amendment
 		}
 		cost = 10.00
 		x = 15

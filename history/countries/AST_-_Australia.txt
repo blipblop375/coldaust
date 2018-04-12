@@ -1,6 +1,6 @@
 ﻿capital = 285
 
-oob = "AST_1949"
+oob = "AST_194444444"
 
 # Starting tech
 set_technology = {

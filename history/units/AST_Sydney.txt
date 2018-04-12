@@ -1,0 +1,20 @@
+units = {
+			
+	navy = {					
+		name = "Melbourne Carriers"				
+		base = 12406
+		location = 12406
+		ship = { name = "HMAS Melbourne" definition = light_carrier equipment = { light_carrier_1 = { amount = 1 owner = AST } }  
+			air_wings = {
+				cv_jet_fighter_equipment_3 =  { owner = "AST" amount = 8 } 
+				cv_nav_bomber_equipment_5 =  { owner = "AST" amount = 16 } 
+			}
+		}
+		ship = { name = "HMAS Sydney" definition = light_carrier equipment = { light_carrier_1 = { amount = 1 owner = AST } }  
+			air_wings = {
+				cv_jet_fighter_equipment_3 =  { owner = "AST" amount = 8 } 
+				cv_nav_bomber_equipment_5 =  { owner = "AST" amount = 16 } 
+			}
+		}
+	}
+}
