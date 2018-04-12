@@ -700,7 +700,7 @@ focus_tree = {
 		x = 26
 		y = 14
 		completion_reward = {
-			###### 
+			###### THink up something for this
 		}
 	}
 	focus = {
@@ -714,7 +714,7 @@ focus_tree = {
 		x = 26
 		y = 15
 		completion_reward = {
-			###### 
+			###### Army XP
 		}
 	}
 	focus = {
@@ -897,7 +897,7 @@ focus_tree = {
 		x = 29
 		y = 19
 		completion_reward = {
-			 add_political_power = 100
+			 add_political_power = 100 ### added national unity too
 		}
 	}
 	focus = {
@@ -911,7 +911,7 @@ focus_tree = {
 		x = 29
 		y = 20
 		completion_reward = {
-			country_event = ANZAC.1
+			country_event = ANZAC.1 ###add national unity and PP
 		}
 	}
 	###America
@@ -941,7 +941,7 @@ focus_tree = {
 		x = 24
 		y = 14
 		completion_reward = {
-			######
+			###### add electronics research
 		}
 	}
 	focus = {
@@ -955,7 +955,7 @@ focus_tree = {
 		x = 24
 		y = 15
 		completion_reward = {
-			######
+			###### get M24s and M26s from the US
 		}
 	}
 	focus = {
@@ -969,7 +969,7 @@ focus_tree = {
 		x = 24
 		y = 16
 		completion_reward = {
-			######
+			###### added port size in darwin
 		}
 	}
 	focus = {
@@ -983,7 +983,7 @@ focus_tree = {
 		x = 24
 		y = 18
 		completion_reward = {
-			######
+			###### AA in NSW
 		}
 	}
 	focus = {
@@ -997,7 +997,7 @@ focus_tree = {
 		x = 24
 		y = 19
 		completion_reward = {
-			######
+			###### added radar research x1
 		}
 	}
 	##### ARMY
@@ -1075,7 +1075,7 @@ focus_tree = {
 		x = 22
 		y = 7
 		completion_reward = {
-			#
+			# monthly population gain
 		}
 	}
 	focus = {
@@ -1089,7 +1089,7 @@ focus_tree = {
 		x = 24
 		y = 7
 		completion_reward = {
-			#
+			# more military xp
 		}
 	}
 	focus = {
@@ -1104,7 +1104,7 @@ focus_tree = {
 		x = 23
 		y = 8
 		completion_reward = {
-			#
+			# air, army, and navy xp
 		}
 	}
 	###### land
