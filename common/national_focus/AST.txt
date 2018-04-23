@@ -142,7 +142,28 @@ focus_tree = {
 		x = 21
 		y = 8
 		completion_reward = {
-			##### Better relations with NATO
+			AST = { add_opinion_modifier = { target = USA modifier = small_increase } }
+			USa = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = FRA modifier = small_increase } }
+			FRA = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = BEL modifier = small_increase } }
+			BEL = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = POR modifier = small_increase } }
+			POR = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = NOR modifier = small_increase } }
+			NOR = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = HOL modifier = small_increase } }
+			HOL = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = ITA modifier = small_increase } }
+			ITA = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = CAN modifier = small_increase } }
+			CAN = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = DEN modifier = small_increase } }
+			DEN = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = ICE modifier = small_increase } }
+			ICE = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = GER modifier = small_increase } }
+			GER = { add_opinion_modifier = { target = AST modifier = small_increase } }
 		}
 	}
 	focus = {
@@ -305,7 +326,7 @@ focus_tree = {
 			}
 		}
 	}
-#### SEATO
+### SEATO
 	focus = {
 		id = AST_assist_filipinos
 		icon = GFX_goal_generic_construction2
@@ -386,6 +407,16 @@ focus_tree = {
 		y = 14
 		completion_reward = {
 			###### Better relations with surroundign countries. IE Philippines, Indonesia, Burma, etc
+			AST = { add_opinion_modifier = { target = PHI modifier = small_increase } }
+			PHI = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = INO modifier = small_increase } }
+			INO = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = MAL modifier = small_increase } }
+			MAL = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = MYR modifier = small_increase } }
+			MYR = { add_opinion_modifier = { target = AST modifier = small_increase } }
+			AST = { add_opinion_modifier = { target = SIA modifier = small_increase } }
+			SIA = { add_opinion_modifier = { target = AST modifier = small_increase } }
 		}
 	}
 	focus = {
