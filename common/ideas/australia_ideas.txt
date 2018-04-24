@@ -101,6 +101,21 @@ ideas = {
 				political_power_factor = -0.10
 			}
 		}
+		bring_out_briton = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.10
+				stability_factor = 0.09
+			}
+		}
 		rationing = {
 		
 			removal_cost = -1
@@ -128,7 +143,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				conscription = 0.03
+				MONTHLY_POPULATION = 0.70
 			}
 		}
 		economic_downturn = {

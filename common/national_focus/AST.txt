@@ -198,7 +198,7 @@ focus_tree = {
 		x = 20
 		y = 10
 		completion_reward = {
-			remove_ideas = anzus
+			add_ideas = anzus
 		}
 	}
 ##### FOREIGN POLICY
@@ -1511,12 +1511,17 @@ focus_tree = {
 		x = 32
 		y = 8
 		completion_reward = {
-			add_equipment_to_stockpile = {
-							type = jet_strat_bomber_equipment_2
-							amount = 888
-							producer = ENG
+			ENG = {
+					create_production_license = {
+							target = AST
+							cost_factor = 1.0
+							equipment = {
+									type = jet_strat_bomber_equipment_1
+									version = 0
+								}
 						}
 				}
+		}
 	}
 	focus = {
 		id = AST_obtain_hunter
@@ -1529,12 +1534,17 @@ focus_tree = {
 		x = 34
 		y = 8
 		completion_reward = {
-			add_equipment_to_stockpile = {
-							type = jet_interceptor_equipment_3
-							amount = 888
-							producer = ENG
+			ENG = {
+					create_production_license = {
+							target = AST
+							cost_factor = 1.0
+							equipment = {
+									type = jet_interceptor_equipment_3
+									version = 0
+								}
 						}
 				}
+		}
 	}
 	focus = {
 		id = AST_american_advisors1
@@ -1548,7 +1558,12 @@ focus_tree = {
 		x = 33
 		y = 9
 		completion_reward = {
-			##### 
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			}
 		}
 	}
 	focus = {
@@ -1576,7 +1591,16 @@ focus_tree = {
 		x = 33
 		y = 11
 		completion_reward = {
-			##### 
+			USA = {
+					create_production_license = {
+							target = AST
+							cost_factor = 1.0
+							equipment = {
+									type = jet_fighter_equipment_3
+									version = 0
+								}
+						}
+				}
 		}
 	}
 	##### DOMESTIC
@@ -1620,7 +1644,7 @@ focus_tree = {
 		x = 17
 		y = 6
 		completion_reward = {
-			consumer_goods_factor = -0.1
+			removes_ideas = rationing
 			add_political_power = 25
 
 		}
@@ -1729,7 +1753,8 @@ focus_tree = {
 		x = 15
 		y = 6
 		completion_reward = {
-			###
+			remove_ideas = rationing
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -1742,7 +1767,7 @@ focus_tree = {
 		x = 15
 		y = 7
 		completion_reward = {
-			###
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -1755,7 +1780,8 @@ focus_tree = {
 		x = 15
 		y = 8
 		completion_reward = {
-			###
+			add_ideas = bring_out_briton
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -1794,7 +1820,24 @@ focus_tree = {
 		x = 15
 		y = 11
 		completion_reward = {
-			###
+			AST = { random_owned_state = {
+				add_building_construction = {
+					add_extra_state_shared_building_slots = 1	
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
+			AST = { random_owned_state = {
+				add_building_construction = {
+					add_extra_state_shared_building_slots = 2	
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1840,7 +1883,8 @@ focus_tree = {
 		x = 13
 		y = 8
 		completion_reward = {
-			###
+			add_resource = { type = steel amount = 20 state = 674 }
+			add_resource = { type = oil amount = 10 state = 674 }
 		}
 	}
 	focus = {
@@ -1853,7 +1897,14 @@ focus_tree = {
 		x = 13
 		y = 9
 		completion_reward = {
-			###
+			674 = {
+				add_extra_state_shared_building_slots = 2	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1866,7 +1917,14 @@ focus_tree = {
 		x = 13
 		y = 10
 		completion_reward = {
-			###
+			285 = {
+				add_extra_state_shared_building_slots = 3	
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
