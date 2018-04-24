@@ -901,7 +901,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AST_the_ANZAC_federation
+		id = AST_the_ANZUS_federation
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = AST_standardized_economy
@@ -911,7 +911,7 @@ focus_tree = {
 		x = 29
 		y = 20
 		completion_reward = {
-			country_event = ANZAC.1 ###add national unity and PP
+			country_event = ANZUS.1 ###add national unity and PP
 		}
 	}
 	###America
@@ -1336,6 +1336,7 @@ focus_tree = {
 			AST = {
 				load_oob = AST_Daring
 			}
+		country_event = ASTMIL.2
 		}
 	}
 	focus = {
@@ -1352,6 +1353,7 @@ focus_tree = {
 			AST = {
 				load_oob = AST_Sydney
 			}
+		country_event = ASTMIL.1
 		}
 	}
 	focus = {
